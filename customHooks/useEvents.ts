@@ -11,6 +11,7 @@ const useEvents = () => {
     useEffect(()=>{
   dispatch(fetchEvents())
     },[])
+    
    const addingEvent=()=>{
 router.push('/Login')
    }
