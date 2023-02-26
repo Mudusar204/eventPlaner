@@ -3,7 +3,7 @@ import Image from 'next/image'
 // import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {Text,Center} from '@chakra-ui/react'
-import Login from './login'
+// import Login from './Login'
 import Navbar from '../components/navbar/Navbar'
 
 export default function Home() {

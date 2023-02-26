@@ -23,7 +23,7 @@ const addEvent = () => {
                         <Button mt='20px' mr='20px' bg='purple' color='white' onClick={addEventHandler} >Add Event</Button>}
                     <Button mt='20px' color='white' bg='purple' >
 
-                        <Link href='/events'> RETURN</Link>
+                        <Link href='/Events'> RETURN</Link>
                     </Button>
 
                 </Box>

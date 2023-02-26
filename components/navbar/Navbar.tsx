@@ -26,11 +26,11 @@ const Navbar = (props: navType) => {
                     <Flex gap='50px'>
                         <Flex gap='30px' >
                             <Link href='/'>HOME</Link>
-                            <Link href='/events'>EVENTS</Link>
+                            <Link href='/Events'>EVENTS</Link>
                         </Flex>
                         <Flex gap='30px' color='purple'>
-                            <Link  href='/login'>LOGIN</Link>
-                            <Link href='/signup'>SIGN UP</Link>
+                            <Link  href='/Login'>LOGIN</Link>
+                            <Link href='/Signup'>SIGN UP</Link>
                         </Flex>
                     </Flex>
                 </Box>

@@ -22,7 +22,7 @@ const useAddEvent = () => {
     },[title,datee,time,location,discription,invities]);
     const addEventHandler=()=>{
 dispatch(addNewEvent(event))
-router.push('/events')
+router.push('/Events')
 
     }
   return {

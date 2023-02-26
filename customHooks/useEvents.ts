@@ -12,7 +12,7 @@ const useEvents = () => {
   dispatch(fetchEvents())
     },[])
    const addingEvent=()=>{
-router.push('/login')
+router.push('/Login')
    }
    const deleteHandler=()=>{
     toast.error('SomeThing went wrong')

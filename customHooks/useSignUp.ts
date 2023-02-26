@@ -34,7 +34,7 @@ export default function useSignUp() {
   }
   const login=()=>{
      try{
-router.push('/login')
+router.push('/Login')
       }
       catch(e){
 console.log(e);

@@ -30,7 +30,7 @@ export default function Login() {
         <br />
         {loader ? <button >Loading...</button> :
       <Button bg='purple' color='white' onClick={onSubmitHandler} >Login</Button>}
-       <Button bg='purple' ml='10px' color='white' ><Link href={'/signup'}>SIGN UP</Link></Button>
+       <Button bg='purple' ml='10px' color='white' ><Link href={'/Signup'}>SIGN UP</Link></Button>
       </Box>
       </Center>
       </div>

@@ -19,7 +19,7 @@ const onSubmitHandler = async () => {
     setLoader(true)
     await signInWithEmailAndPassword(auth, email, password)
     // await createUserWithEmailAndPassword(auth, email, password)
-    router.push('/addEvent')
+    router.push('/AddEvent')
     
     toast.success('Successfully login!');
     } catch (e) {
