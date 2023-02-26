@@ -1,0 +1,10 @@
+.container{
+    /* color: lightblue; */
+    /* background-color: aqua; */
+    background-image: url("/page1/bgimg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* height: 600px; */
+    width: auto;
+}
