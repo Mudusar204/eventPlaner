@@ -21,7 +21,7 @@ const eventSlice=createSlice({
 })
 export const {}=eventSlice.actions
 export default eventSlice.reducer
-export const fetchEvents = createAsyncThunk('fetch/todo', async () => {
+export const fetchEvents:any = createAsyncThunk('fetch/todo', async () => {
     try {
         const QuerySnapshot = await getDocs(collection(db, 'events'));
         let eventsList: any = []

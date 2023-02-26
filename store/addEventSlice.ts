@@ -20,7 +20,7 @@ const addEventSlice = createSlice({
 })
 // export const { } = addEventSlice.actions
 export default addEventSlice.reducer
-export const addNewEvent = createAsyncThunk('add/event', async (event: any,actions:any) => {
+export const addNewEvent:any = createAsyncThunk('add/event', async (event: any,actions:any) => {
     
     try {
     console.log(event,'thunk wala event');
