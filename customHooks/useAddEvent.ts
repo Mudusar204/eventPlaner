@@ -3,7 +3,7 @@ import { useState,useEffect } from "react"
 import { useDispatch } from 'react-redux'
 import {addNewEvent} from "../store/addEventSlice"
 import { useRouter } from 'next/router'
-const useAddEvent = () => {
+const useAddevent = () => {
     const router=useRouter()
     const [loader,setLoader]=useState(false)
     const [title,setTitle]=useState("")
@@ -44,4 +44,4 @@ router.push('/Events')
   } 
 }
 
-export default useAddEvent
+export default useAddevent

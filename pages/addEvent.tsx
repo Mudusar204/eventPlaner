@@ -1,11 +1,11 @@
 import { Box, Center, Text, Button, Input } from "@chakra-ui/react";
-import useAddEvent from '../customHooks/useAddEvent';
+import useAddevent from '../customHooks/useAddEvent'
 import React from 'react'
 import { useState } from 'react'
 import Link from "next/link";
 const addEvent = () => {
     const { title, setTitle, datee, setDatee, time, setTime, location, setLocation, discription, setDiscription,
-        invities, setInvities, addEventHandler, loader, setLoader } = useAddEvent()
+        invities, setInvities, addEventHandler, loader, setLoader } = useAddevent()
 
     return (
         <div>
