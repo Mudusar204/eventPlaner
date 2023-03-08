@@ -17,7 +17,7 @@ import Cards from '../components/cards/Cards'
 import { wrap } from 'module'
 import Navbar from '../components/navbar/Navbar'
 import { useState, useEffect } from 'react'
-const events = () => {
+const Events = () => {
 
   const { addingEvent,deleteHandler } = useEvents()
   const dataFromStore = useSelector((store: any) => store.eventSlice.fireBaseWalyEvents)
@@ -90,4 +90,4 @@ const events = () => {
   )
 }
 
-export default events
+export default Events
