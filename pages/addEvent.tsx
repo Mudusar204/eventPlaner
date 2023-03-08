@@ -3,7 +3,7 @@ import useAddevent from '../customHooks/useAddEvent'
 import React from 'react'
 import { useState } from 'react'
 import Link from "next/link";
-const addEvent = () => {
+const AddEvent = () => {
     const { title, setTitle, datee, setDatee, time, setTime, location, setLocation, discription, setDiscription,
         invities, setInvities, addEventHandler, loader, setLoader } = useAddevent()
 
@@ -25,14 +25,10 @@ const addEvent = () => {
 
                         <Link href='/Events'> RETURN</Link>
                     </Button>
-
-
-
-
                 </Box>
             </Center>
         </div>
     )
 }
 
-export default addEvent
+export default AddEvent
